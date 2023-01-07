@@ -1,1 +1,5 @@
 This is my f1 file moidified in testing
+This is my file in G1
+
+f1 modfied in feature2
+
