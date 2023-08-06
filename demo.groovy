@@ -4,7 +4,7 @@ job('DSL_Groovy'){
 	   git('https://github.com/kiran1036999/G1.git','master')
 	}
 	
-	trigger{
+	triggers{
 	   scm('* * * * *')
 	}
 	
