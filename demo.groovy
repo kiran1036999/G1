@@ -9,7 +9,7 @@ Job('DSL_Groovy'){
 	}
 	
 	steps{
-	   maven('clean package','pom.xml')
+	   maven('clean package','sample_app_v1.0/pom.xml')
 	}
 	
 	publishers{
