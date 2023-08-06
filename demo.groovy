@@ -1,4 +1,4 @@
-Job('DSL_Groovy'){
+job('DSL_Groovy'){
 	description("${name Date()}, Hi")
 	scm{
 	   git('https://github.com/kiran1036999/G1.git','master')
