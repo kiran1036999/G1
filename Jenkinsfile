@@ -1,15 +1,15 @@
 pipeline {
-	agent any 
-	stages {
-		stage('Init') {
-			steps{
-				echo 'From Init'
-			}
+	angent any
+	tools {
+		maven 'M2_HOME'
+		jdk 'JAVA_HOME'
+	}
+	stages ('Build') {
+		stage {
+		step {
+		sh 'echo hi'
 		}
-		stage('Build') {
-			steps{
-				echo 'From Build'
-			}
 		}
 	}
+	
 }
