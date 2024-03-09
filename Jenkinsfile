@@ -4,9 +4,9 @@ pipeline {
     maven 'M2_HOME'
     jdk 'JAVA_HOME'
   }
-  stages('Build') {
-    stage {
-      step {
+  stages {
+    stage ('Build') {
+      steps {
         sh 'echo hi'
       }
     }
